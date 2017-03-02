@@ -14,6 +14,7 @@
 		ECAC50CA1E6807D800AE85B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAC50C91E6807D800AE85B8 /* Assets.xcassets */; };
 		ECAC50CD1E6807D800AE85B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAC50CB1E6807D800AE85B8 /* LaunchScreen.storyboard */; };
 		ECAC50D81E6807D800AE85B8 /* UIWindowDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAC50D71E6807D800AE85B8 /* UIWindowDemoTests.m */; };
+		ECAC50E41E68082400AE85B8 /* PassWordInputWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAC50E31E68082400AE85B8 /* PassWordInputWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		ECAC50D31E6807D800AE85B8 /* UIWindowDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIWindowDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAC50D71E6807D800AE85B8 /* UIWindowDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWindowDemoTests.m; sourceTree = "<group>"; };
 		ECAC50D91E6807D800AE85B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAC50E21E68082400AE85B8 /* PassWordInputWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassWordInputWindow.h; sourceTree = "<group>"; };
+		ECAC50E31E68082400AE85B8 /* PassWordInputWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassWordInputWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				ECAC50CB1E6807D800AE85B8 /* LaunchScreen.storyboard */,
 				ECAC50CE1E6807D800AE85B8 /* Info.plist */,
 				ECAC50BD1E6807D800AE85B8 /* Supporting Files */,
+				ECAC50E21E68082400AE85B8 /* PassWordInputWindow.h */,
+				ECAC50E31E68082400AE85B8 /* PassWordInputWindow.m */,
 			);
 			path = UIWindowDemo;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 				ECAC50C51E6807D800AE85B8 /* ViewController.m in Sources */,
 				ECAC50C21E6807D800AE85B8 /* AppDelegate.m in Sources */,
 				ECAC50BF1E6807D800AE85B8 /* main.m in Sources */,
+				ECAC50E41E68082400AE85B8 /* PassWordInputWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
